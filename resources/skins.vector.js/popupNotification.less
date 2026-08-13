@@ -1,5 +1,12 @@
 .vector-popup-notification {
-	font-size: @font-size-dropdown;
+	// The message font size is Vector's, but the element it has to apply to is the design
+	// system's. Declared on the notification root it would no longer reach the message:
+	// the popover sets a font size directly on its own body element, and a class selector
+	// on that element beats inheritance from an ancestor. Scoping the declaration onto
+	// that element keeps the message at @font-size-dropdown instead of the larger default.
+	.cdx-popover__body {
+		font-size: @font-size-dropdown;
+	}
 
 	p {
 		margin: 0;
