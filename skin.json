@@ -306,62 +306,18 @@
 			"selectorWithoutVariant": ".vector-icon.mw-ui-icon-wikimedia-{name}",
 			"useDataURI": false,
 			"defaultColor": "#000",
-			"class": "MediaWiki\\ResourceLoader\\OOUIIconPackModule",
+			"class": "MediaWiki\\ResourceLoader\\ImageModule",
 			"useMaskImage": true,
-			"icons": [
-				"article",
-				"edit",
-				"editLock",
-				"exitFullscreen",
-				"fullScreen",
-				"history",
-				"speechBubbles",
-				"speechBubbleAdd",
-				"wikiText",
-				"appearance"
-			]
+			"data": "resources/skins.vector.icons/icons.js.json"
 		},
 		"skins.vector.icons": {
 			"selectorWithVariant": ".vector-icon.mw-ui-icon-wikimedia-{name}-{variant}",
 			"selectorWithoutVariant": ".vector-icon.mw-ui-icon-wikimedia-{name}",
 			"useDataURI": false,
 			"defaultColor": "#000",
-			"class": "MediaWiki\\ResourceLoader\\OOUIIconPackModule",
+			"class": "MediaWiki\\ResourceLoader\\ImageModule",
 			"useMaskImage": true,
-			"icons": [
-				"eye",
-				"trash",
-				"move",
-				"lock",
-				"unLock",
-				"tray",
-				"bell",
-				"bellOutline",
-				"menu",
-				"heart",
-				"language",
-				"ellipsis",
-				"verticalEllipsis",
-				"userAvatar",
-				"userAdd",
-				"userTemporary",
-				"userTalk",
-				"sandbox",
-				"search",
-				"settings",
-				"labFlask",
-				"star",
-				"halfStar",
-				"unStar",
-				"watchlist",
-				"userContributions",
-				"logIn",
-				"logOut",
-				"imageGallery",
-				"userGroup",
-				"listBullet",
-				"close"
-			]
+			"data": "resources/skins.vector.icons/icons.json"
 		},
 		"skins.vector.clientPreferences": {
 			"packageFiles": [
@@ -402,12 +358,12 @@
 			"class": "MediaWiki\\ResourceLoader\\CodexModule",
 			"localBasePath": "resources/skins.vector.notification.codex",
 			"remoteSkinPath": "Vector/resources/skins.vector.notification.codex",
-			"codexComponents": [
-				"CdxPopover"
-			],
 			"packageFiles": [
 				"index.js",
 				"PopupNotification.vue"
+			],
+			"codexComponents": [
+				"CdxPopover"
 			],
 			"dependencies": [
 				"vue",
