@@ -37,7 +37,15 @@
  * an entry once created.
  */
 const { defineComponent } = require( 'vue' );
-const { CdxPopover } = require( '@wikimedia/codex' );
+// `./codex.js` is the file the module's own delivery mechanism synthesises from its
+// component list: a proxy exporting exactly the components requested, so only those are
+// packaged. The relative form is required rather than preferred — a bare package
+// specifier is treated as a ResourceLoader module name and resolved through the loader,
+// where it can never be satisfied, because a module that declares its components this way
+// is forbidden from also depending on the whole library. Core's own components that
+// request a subset do the same; see `mediawiki.languageselector/LanguageSelector.vue` and
+// `mediawiki.watchstar.popover/WatchlistPopup.vue` in core.
+const { CdxPopover } = require( './codex.js' );
 
 /*
  * BLITZY [A11Y]: the design-system component renders the notification panel with no `role` and

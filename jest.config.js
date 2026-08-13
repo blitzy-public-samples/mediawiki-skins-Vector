@@ -6,6 +6,10 @@
 module.exports = {
 	moduleNameMapper: {
 		'@wikimedia/codex-search': '@wikimedia/codex',
+		// `./codex.js` has no on-disk counterpart: ResourceLoader synthesises it per module
+		// from that module's declared component list. Components that request a subset must
+		// require it by that relative name, so under test it resolves to the real package.
+		'^\\./codex\\.js$': '@wikimedia/codex',
 		'^./templates/(.*).mustache': '<rootDir>/includes/templates/$1.mustache'
 	},
 

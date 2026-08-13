@@ -30,5 +30,9 @@
 	{
 		"resourceModule": "skins.vector.icons.js",
 		"maxSize": "0.7 kB"
+	},
+	{
+		"resourceModule": "skins.vector.notification.codex",
+		"maxSize": "20.5 kB"
 	}
 ]
