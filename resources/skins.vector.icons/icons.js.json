@@ -1,0 +1,69 @@
+{
+	"images": {
+		"default": {
+			"appearance": {
+				"file": "resources/skins.vector.icons/images/appearance.svg"
+			},
+			"speechBubbleAdd": {
+				"file": {
+					"ltr": "resources/skins.vector.icons/images/speechBubbleAdd-ltr.svg",
+					"rtl": "resources/skins.vector.icons/images/speechBubbleAdd-rtl.svg"
+				}
+			},
+			"speechBubbles": {
+				"file": {
+					"ltr": "resources/skins.vector.icons/images/speechBubbles-ltr.svg",
+					"rtl": "resources/skins.vector.icons/images/speechBubbles-rtl.svg"
+				}
+			},
+			"article": {
+				"file": {
+					"ltr": "resources/skins.vector.icons/images/article-ltr.svg",
+					"rtl": "resources/skins.vector.icons/images/article-rtl.svg"
+				}
+			},
+			"history": {
+				"file": "resources/skins.vector.icons/images/history.svg"
+			},
+			"wikiText": {
+				"file": "resources/skins.vector.icons/images/wikiText.svg"
+			},
+			"edit": {
+				"file": "resources/skins.vector.icons/images/edit.svg"
+			},
+			"editLock": {
+				"file": "resources/skins.vector.icons/images/editLock.svg"
+			},
+			"exitFullscreen": {
+				"file": "resources/skins.vector.icons/images/exitFullscreen.svg"
+			},
+			"fullScreen": {
+				"file": "resources/skins.vector.icons/images/fullScreen.svg"
+			}
+		}
+	},
+	"variants": {
+		"default": {
+			"invert": {
+				"color": "#fff",
+				"global": true
+			},
+			"progressive": {
+				"color": "#36c",
+				"global": true
+			},
+			"destructive": {
+				"color": "#d73333"
+			},
+			"error": {
+				"color": "#d73333"
+			},
+			"warning": {
+				"color": "#ab7f2a"
+			},
+			"success": {
+				"color": "#14866d"
+			}
+		}
+	}
+}

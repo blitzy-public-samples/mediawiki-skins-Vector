@@ -1,0 +1,168 @@
+{
+	"images": {
+		"default": {
+			"eye": {
+				"file": "resources/skins.vector.icons/images/eye.svg"
+			},
+			"bell": {
+				"file": "resources/skins.vector.icons/images/bell.svg"
+			},
+			"bellOutline": {
+				"file": "resources/skins.vector.icons/images/bellOutline.svg"
+			},
+			"tray": {
+				"file": "resources/skins.vector.icons/images/tray.svg"
+			},
+			"labFlask": {
+				"file": "resources/skins.vector.icons/images/labFlask.svg"
+			},
+			"language": {
+				"file": "resources/skins.vector.icons/images/language.svg"
+			},
+			"sandbox": {
+				"file": "resources/skins.vector.icons/images/sandbox.svg"
+			},
+			"listBullet": {
+				"file": {
+					"ltr": "resources/skins.vector.icons/images/listBullet-ltr.svg",
+					"rtl": "resources/skins.vector.icons/images/listBullet-rtl.svg"
+				}
+			},
+			"close": {
+				"file": "resources/skins.vector.icons/images/close.svg"
+			},
+			"ellipsis": {
+				"file": "resources/skins.vector.icons/images/ellipsis.svg"
+			},
+			"verticalEllipsis": {
+				"file": "resources/skins.vector.icons/images/verticalEllipsis.svg"
+			},
+			"heart": {
+				"file": "resources/skins.vector.icons/images/heart.svg"
+			},
+			"logIn": {
+				"file": {
+					"ltr": "resources/skins.vector.icons/images/logIn-ltr.svg",
+					"rtl": "resources/skins.vector.icons/images/logIn-rtl.svg"
+				}
+			},
+			"logOut": {
+				"file": {
+					"ltr": "resources/skins.vector.icons/images/logOut-ltr.svg",
+					"rtl": "resources/skins.vector.icons/images/logOut-rtl.svg"
+				}
+			},
+			"search": {
+				"file": "resources/skins.vector.icons/images/search.svg"
+			},
+			"settings": {
+				"file": "resources/skins.vector.icons/images/settings.svg"
+			},
+			"menu": {
+				"file": "resources/skins.vector.icons/images/menu.svg"
+			},
+			"imageGallery": {
+				"file": {
+					"ltr": "resources/skins.vector.icons/images/imageGallery-ltr.svg",
+					"rtl": "resources/skins.vector.icons/images/imageGallery-rtl.svg"
+				}
+			},
+			"lock": {
+				"file": "resources/skins.vector.icons/images/lock.svg",
+				"variants": [
+					"destructive"
+				]
+			},
+			"unLock": {
+				"file": "resources/skins.vector.icons/images/unLock.svg",
+				"variants": [
+					"destructive"
+				]
+			},
+			"star": {
+				"file": "resources/skins.vector.icons/images/star.svg"
+			},
+			"halfStar": {
+				"file": {
+					"ltr": "resources/skins.vector.icons/images/halfStar-ltr.svg",
+					"rtl": "resources/skins.vector.icons/images/halfStar-rtl.svg"
+				}
+			},
+			"unStar": {
+				"file": "resources/skins.vector.icons/images/unStar.svg"
+			},
+			"trash": {
+				"file": "resources/skins.vector.icons/images/trash.svg",
+				"variants": [
+					"destructive"
+				]
+			},
+			"move": {
+				"file": "resources/skins.vector.icons/images/move.svg"
+			},
+			"userAdd": {
+				"file": {
+					"ltr": "resources/skins.vector.icons/images/userAdd-ltr.svg",
+					"rtl": "resources/skins.vector.icons/images/userAdd-rtl.svg"
+				}
+			},
+			"userAvatar": {
+				"file": "resources/skins.vector.icons/images/userAvatar.svg"
+			},
+			"userContributions": {
+				"file": {
+					"ltr": "resources/skins.vector.icons/images/userContributions-ltr.svg",
+					"rtl": "resources/skins.vector.icons/images/userContributions-rtl.svg"
+				}
+			},
+			"userGroup": {
+				"file": {
+					"ltr": "resources/skins.vector.icons/images/userGroup-ltr.svg",
+					"rtl": "resources/skins.vector.icons/images/userGroup-rtl.svg"
+				}
+			},
+			"userTalk": {
+				"file": {
+					"ltr": "resources/skins.vector.icons/images/userTalk-ltr.svg",
+					"rtl": "resources/skins.vector.icons/images/userTalk-rtl.svg"
+				}
+			},
+			"userTemporary": {
+				"file": {
+					"ltr": "resources/skins.vector.icons/images/userTemporary-ltr.svg",
+					"rtl": "resources/skins.vector.icons/images/userTemporary-rtl.svg"
+				}
+			},
+			"watchlist": {
+				"file": {
+					"ltr": "resources/skins.vector.icons/images/watchlist-ltr.svg",
+					"rtl": "resources/skins.vector.icons/images/watchlist-rtl.svg"
+				}
+			}
+		}
+	},
+	"variants": {
+		"default": {
+			"invert": {
+				"color": "#fff",
+				"global": true
+			},
+			"progressive": {
+				"color": "#36c",
+				"global": true
+			},
+			"destructive": {
+				"color": "#d73333"
+			},
+			"error": {
+				"color": "#d73333"
+			},
+			"warning": {
+				"color": "#ab7f2a"
+			},
+			"success": {
+				"color": "#14866d"
+			}
+		}
+	}
+}
